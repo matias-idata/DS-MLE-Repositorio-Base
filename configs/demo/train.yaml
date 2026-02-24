@@ -1,0 +1,15 @@
+project: demo
+random_state: 42
+
+data:
+  raw_path: data/raw/demo.csv
+
+model:
+  kind: logistic_regression
+  params:
+    max_iter: 200
+    C: 1.0
+
+output:
+  model_dir: outputs/demo
+  model_path: outputs/demo/model.joblib

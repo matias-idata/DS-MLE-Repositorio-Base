@@ -1,0 +1,12 @@
+project: demo
+
+data:
+  raw_path: data/raw/demo.csv
+
+model:
+  model_path: outputs/demo/model.joblib
+
+output:
+  reports_dir: outputs/demo
+  metrics_path: outputs/demo/metrics.json
+  report_md_path: outputs/demo/report.md
